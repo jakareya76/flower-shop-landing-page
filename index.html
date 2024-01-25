@@ -4,15 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Shop</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .font_lato {
+        font-family: "Lato", sans-serif;
+      }
+    </style>
   </head>
-  <body>
-    <h1>Flower Shop</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-      officiis nisi vel delectus. Cumque nam facilis, ad adipisci harum
-      explicabo deleniti possimus id ea nisi, perferendis veniam non suscipit
-      quasi.
-    </p>
+  <body class="font_lato">
+    <header class="bg-[#E554731A] py-10 md:py-10 px-5">
+      <div class="container mx-auto">
+        <div class="flex items-center justify-center gap-10">
+          <div class="flex-1">
+            <h1
+              class="text-[#272727] text-4xl font-black max-w-lg leading-loose md:text-6xl"
+            >
+              Let's make beautiful flowers a part of your life.
+            </h1>
+            <p class="text-[#777] my-5">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters.
+            </p>
+            <button
+              class="text-white bg-[#E55473] py-4 px-8 text-xl font-bold rounded-xl"
+            >
+              Shop Now
+            </button>
+          </div>
+          <div class="flex items-center justify-end flex-1">
+            <img src="./images/pngwing 10.png" alt="" class="max-w-lg" />
+          </div>
+        </div>
+      </div>
+    </header>
+    <main></main>
+    <footer></footer>
   </body>
 </html>
