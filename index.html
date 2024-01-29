@@ -20,10 +20,12 @@
   <body class="font_lato">
     <header class="bg-[#E554731A] py-10 md:py-10 px-5">
       <div class="container mx-auto">
-        <div class="flex items-center justify-center gap-10">
+        <div
+          class="flex items-center flex-col-reverse text-center justify-center gap-10 md:flex-row md:text-left"
+        >
           <div class="flex-1">
             <h1
-              class="text-[#272727] text-4xl font-black max-w-lg leading-loose md:text-6xl"
+              class="text-[#272727] text-4xl font-black max-w-lg mx-auto md:text-6xl md:mx-0"
             >
               Let's make beautiful flowers a part of your life.
             </h1>
@@ -40,12 +42,69 @@
             </button>
           </div>
           <div class="flex items-center justify-end flex-1">
-            <img src="./images/pngwing 10.png" alt="" class="max-w-lg" />
+            <img src="./images/pngwing 10.png" alt="" class="max-w-lg w-full" />
           </div>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="container mx-auto py-20">
+        <div class="text-center space-y-5">
+          <h2 class="text-[#272727] text-3xl md:text-5xl font-bold">
+            Our Featured Flowers
+          </h2>
+          <p class="max-w-xl mx-auto text-[#777]">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+        </div>
+        <div class="flex items-center justify-center mt-20">
+          <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
+            <!-- Card -->
+            <div class="flex flex-col items-center justify-center">
+              <div class="bg-[#A7216226] px-16 pt-20 rounded-t-full">
+                <img
+                  src="./images/pngwing 6.png"
+                  alt=""
+                  class="max-w-80 max-h-80"
+                />
+              </div>
+              <h4 class="text-[#272727] text-xl underline font-semibold mt-4">
+                Pink Flower Tree
+              </h4>
+            </div>
+            <!-- Card -->
+            <div class="flex flex-col items-center justify-center">
+              <div
+                class="bg-[#A7216226] max-w-96 max-h-[420px] pt-20 px-12 rounded-t-full"
+              >
+                <img
+                  src="./images/pngwing 10.png"
+                  alt=""
+                  class="max-w-80 max-h-80"
+                />
+              </div>
+              <h4 class="text-[#272727] text-xl underline font-semibold mt-4">
+                Pink Flower Tree
+              </h4>
+            </div>
+            <!-- Card -->
+            <div class="flex flex-col items-center justify-center">
+              <div class="bg-[#A7216226] px-16 pt-20 rounded-t-full">
+                <img
+                  src="./images/pngwing 7.png"
+                  alt=""
+                  class="max-w-80 max-h-80"
+                />
+              </div>
+              <h4 class="text-[#272727] text-xl underline font-semibold mt-4">
+                Pink Flower Tree
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
